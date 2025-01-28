@@ -21,8 +21,5 @@ public class Lab16c
 		System.out.println("\nnumber of vowels in the words removed == " + vowelsRemoved);
 		System.out.println("\n\n");
 
-
-		//more test cases
-
 	}
 }
