@@ -30,7 +30,7 @@ public class Word
 		//Loop for every letter in "word"
 		for(int i = word.length() - 1; i >= 0; i--)
 		{
-			if(VOWELS.indexOf(word.charAt(i)) > -1) 
+			if(VOWELS.indexOf(word.substring(i, i+1)) > -1) 
 			{
 				count++;
 			}

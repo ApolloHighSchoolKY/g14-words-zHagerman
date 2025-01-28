@@ -37,9 +37,9 @@ public class Words
 		int count=0;
 
 		//for every Word in the ArrayList "wordList"
-		for(Word cookieMonster: wordList)
+		for(Word theWord: wordList)
 		{
-			if(cookieMonster.getLength() == size)
+			if(theWord.getLength() == size)
 				count++;
 		}
 			//if the length of the "theWord" is the same as the parameter "size"
@@ -74,9 +74,9 @@ public class Words
 		int count= 0;
 
 		//for every Word in the ArrayList "words"
-		for(Word cookieMonster: wordList)
+		for(Word theWord: wordList)
 		{
-			if(cookieMonster.getNumVowels() == numVowels)
+			if(theWord.getNumVowels() == numVowels)
 			{
 				count++;
 			}	
